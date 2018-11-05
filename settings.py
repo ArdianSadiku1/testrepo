@@ -1,6 +1,6 @@
-from flask import flask
+from flask import Flask
 
-app = flask(__name__)
+app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI']='sqllite:///Users/ardiansadiku/Documents/Python/database.db'
+app.config['SQLALCHEMY_DATABASE_URI']='sqlite:////Users/ardiansadiku/Documents/Python/testrepo/database.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
